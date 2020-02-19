@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: 10vh;
+  line-height: 1.75rem;
+
+  .errorText {
+    color: red;
+    margin: -5px 0;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  form {
+    div {
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+    }
+    justify-content: baseline;
+    input {
+      height: 1.5rem;
+
+      border-radius: 5px;
+    }
+    button {
+      height: 1.5rem;
+    }
+  }
+}
